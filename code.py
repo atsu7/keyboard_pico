@@ -34,7 +34,7 @@ encoder_handler.pins = (
     (board.GP6, board.GP7, None)
 )
 
-encoder_handler.map = [((KC.B,KC.N,KC.NO))]
+encoder_handler.map = (((KC.B,KC.N,KC.NO)))
 
 if __name__ == '__main__':
     keyboard.go()
