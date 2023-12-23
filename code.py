@@ -16,7 +16,7 @@ holdtap = HoldTap()
 keyboard.modules.append(holdtap)
 
 
-keyboard.col_pins = (board.GP13,board.GP19,board.GP20,board.GP26,board.GP27,board.GP28,board.GP4)
+keyboard.col_pins = (board.GP13,board.GP20,board.GP19,board.GP26,board.GP27,board.GP28,board.GP4)
 keyboard.row_pins = (board.GP12,board.GP11,board.GP10,board.GP9)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
